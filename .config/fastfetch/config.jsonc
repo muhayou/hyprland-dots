@@ -18,8 +18,14 @@
       "type": "os",
       "key": " OS"
     },
-    "host",
-    "kernel",
+    {
+      "type": "host",
+      "key": " Host"
+    },
+    {
+      "type": "kernel",
+      "key": " Kernel"
+    },
     {
       "type": "uptime",
       "key": " Uptime"
@@ -37,17 +43,29 @@
       "key": "  Display"
     },
     "de",
-    "wm",
+    {
+      "type": "wm",
+      "key": " Window Manager"
+    },
     "wmtheme",
-    "theme",
+    {
+      "type": "theme",
+      "key": " Theme"
+    },
     "icons",
     {
       "type": "font",
-      "key": " Font"
+      "key": " Font"
     },
-    "cursor",
-    "terminal",
-    "terminalfont",
+    //"cursor",
+    {
+      "type": "terminal",
+      "key": " Terminal" 
+    },
+    {
+      "type": "terminalfont",
+      "key": " Terminal Font"
+    },
     {
       "type": "cpu",
       "key": " CPU"
@@ -55,11 +73,20 @@
     "gpu",
     "memory",
     "swap",
-    "disk",
-    "localip",
-    "battery",
-    "poweradapter",
-    "locale",
+    {
+      "type": "disk",
+      "key": " Disk"
+    },
+    {
+      "type": "localip",
+      "key": " Local IP"
+    },
+    //"battery",
+    //"poweradapter",
+    {
+      "type": "locale",
+      "key": "  Locale"
+    },
     "break",
     "colors"
   ]
